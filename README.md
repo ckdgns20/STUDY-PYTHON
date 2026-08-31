@@ -19,14 +19,14 @@ Python 기초 문법과 기본 프로그래밍 개념을 학습하고 정리하�
 
 ## Learning Topics
 
-1. Python Fundamentals
+### 1. Python Fundamentals
 - Python 기본 문법
 - 변수
 - 자료형
 - 연산자
 - 입력과 출력
 - 형 변환
-2. Control Flow
+### 2. Control Flow
 - 조건문
     - if
     - elif
@@ -37,7 +37,7 @@ Python 기초 문법과 기본 프로그래밍 개념을 학습하고 정리하�
 - break
 - continue
 - 반복문과 조건문의 조합
-3. Data Structures
+### 3. Data Structures
 - String
 - List
 - Tuple
@@ -46,7 +46,7 @@ Python 기초 문법과 기본 프로그래밍 개념을 학습하고 정리하�
 - 인덱싱
 - 슬라이싱
 - 자료구조별 주요 메서드
-4. Functions
+### 4. Functions
 - 함수 정의
 - 매개변수
 - 반환값
@@ -54,7 +54,7 @@ Python 기초 문법과 기본 프로그래밍 개념을 학습하고 정리하�
 - 여러 값 반환
 - 지역 변수와 전역 변수
 - 함수 호출 구조
-5. Classes & Objects
+### 5. Classes & Objects
 - 클래스
 - 객체
 - 인스턴스
@@ -62,19 +62,19 @@ Python 기초 문법과 기본 프로그래밍 개념을 학습하고 정리하�
 - 메서드
 - __init__
 - 객체지향 프로그래밍 기초
-6. File I/O
+### 6. File I/O
 - 파일 읽기
 - 파일 쓰기
 - with open()
 - 텍스트 파일 처리
-7. Exception Handling
+### 7. Exception Handling
 - 예외의 개념
 - try
 - except
 - else
 - finally
 - 기본적인 오류 처리
-8. Python Modules
+### 8. Python Modules
 - import
 - 모듈 사용
 - 표준 라이브러리
@@ -84,7 +84,7 @@ Python 기초 문법과 기본 프로그래밍 개념을 학습하고 정리하�
 # Learning Roadmap
 
 전체 AI·Computer Vision 학습 과정에서 Python은 첫 번째 프로그래밍 기초 단계입니다.
-
+```text
 Python Basics
       ↓
 NumPy
@@ -106,9 +106,10 @@ Camera Geometry & Calibration
 3D Computer Vision
       ↓
 Manufacturing AI
+```
 
 자료구조와 알고리즘은 Python 기초 학습 이후 별도의 Repository에서 병행하여 학습합니다.
-
+```text
 Python Basics
       │
       ├───────────────→ Data Structures & Algorithms
@@ -119,7 +120,7 @@ Python Basics
  Mathematics                    │
       ↓                         │
 Machine Learning ←──────────────┘
-
+```
 # Related Repositories
 
 각 주요 영역은 별도의 GitHub Repository로 관리합니다.
@@ -136,46 +137,47 @@ Machine Learning ←──────────────┘
 - opencv
 - computer-vision
 - 3d-vision
-## Progress
+
+# Progress
 
 ## Python Fundamentals
 
-[x] 입출력
-[x] 변수와 자료형
-[x] 형 변환
-[x] 연산자
+- [x] 입출력
+- [x] 변수와 자료형
+- [x] 형 변환
+- [x] 연산자
 
 ## Control Flow
 
-[x] 조건문
-[x] for 반복문
-[x] while 반복문
-[x] break
-[x] continue
+- [x] 조건문
+- [x] for 반복문
+- [x] while 반복문
+- [x] break
+- [x] continue
 
 ## Data Structures
 
-[x] String
-[x] List
-[x] Tuple
-[x] Dictionary
-[x] Set
+- [x] String
+- [x] List
+- [x] Tuple
+- [x] Dictionary
+- [x] Set
 
 ## Functions & OOP
 
-[ ] 함수
-[ ] 매개변수와 반환값
-[ ] 클래스
-[ ] 객체와 인스턴스
+- [ ] 함수
+- [ ] 매개변수와 반환값
+- [ ] 클래스
+- [ ] 객체와 인스턴스
 
 ## Python Programming
 
-[ ] 파일 입출력
-[ ] 예외 처리
-[ ] 모듈
-[ ] 패키지 기초
+- [ ] 파일 입출력
+- [ ] 예외 처리
+- [ ] 모듈
+- [ ] 패키지 기초
 
-## Development Environment
+# Development Environment
 
 - Python
 - Visual Studio Code
