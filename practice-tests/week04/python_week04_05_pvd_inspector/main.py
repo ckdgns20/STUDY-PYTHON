@@ -1,5 +1,6 @@
 import argparse
 import utils
+import data_utils
 from data_loader import load_csv
 
 if __name__ == "__main__":
@@ -16,7 +17,7 @@ if __name__ == "__main__":
     
     xrows, material = load_csv(arguments.Xfile_path)
     yrows, _ = load_csv(arguments.Yfile_path)
-    total_info = utils.compute_header_data(xrows,yrows)
-    missing_areax,missing_areay,missing_numx,missing_numy = utils.find_missing_value(xrows,yrows)
+    total_info = data_utils.compute_header_data(xrows,yrows)
+    missing_areax,missing_areay,missing_numx,missing_numy = data_utils.find_missing_value(xrows,yrows)
     utils.summary(material, xrows, yrows, total_info, missing_areax, missing_areay, missing_numx, missing_numy)
 
